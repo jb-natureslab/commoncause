@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/commoncause/common-cause.co.uk/
+    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/commoncause/public_html/
+    - /bin/cp -R * $DEPLOYPATH
